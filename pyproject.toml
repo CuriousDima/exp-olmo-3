@@ -1,0 +1,14 @@
+[project]
+name = "exp-olmo-3"
+version = "0.1.0"
+description = "A few experimental notebooks with Olmo 3 ()"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "iprogress>=0.4",
+    "ipywidgets>=8.1.8",
+    "jupyterlab>=4.5.0",
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
+    "transformers>=4.57.1",
+]
